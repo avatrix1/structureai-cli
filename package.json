@@ -1,0 +1,48 @@
+{
+  "name": "structureai",
+  "version": "1.0.0",
+  "description": "Extract structured JSON from messy text using AI. Supports receipts, invoices, emails, resumes, contacts, and custom schemas.",
+  "main": "dist/index.js",
+  "bin": {
+    "structureai": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ai",
+    "structured-data",
+    "json",
+    "extraction",
+    "nlp",
+    "receipt",
+    "invoice",
+    "email",
+    "resume",
+    "contact",
+    "parser",
+    "text-extraction",
+    "data-extraction",
+    "cli"
+  ],
+  "author": "Avatrix LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avatrix1/structureai-cli"
+  },
+  "homepage": "https://api-service-wine.vercel.app",
+  "bugs": {
+    "url": "https://github.com/avatrix1/structureai-cli/issues"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  }
+}
